@@ -1,0 +1,524 @@
+@font-face{
+    font-family:domain;
+    src: url(./domain.ttf);
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 150%;
+    width: 100%;
+    background-color:#C3BBB2;
+
+}
+
+#page1{
+    height: 70vh;
+    width: 100vw;
+    position:relative;
+    overflow: hidden;
+}
+
+#nav{
+    width:100%;
+    height:100px;
+    background-color:#C3BBB2;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0px 20px;
+    border-bottom: 2px solid black;
+}
+
+#nav img{
+    height:70px;
+    width:70px;
+}
+
+#nav i{
+    font-size: 18px;
+    text-align: right;
+}
+
+#elems{
+    height:430px;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 40px 60px;
+}
+
+#elem1{
+    width:30%;
+    height:100%;
+}
+
+#elem2{
+    width:30%;
+    height:100%;
+    border-left: 2px solid black;
+    border-right:2px solid black;
+    padding:0px 30px;
+    text-align: center;;
+}
+
+#elem3{
+    width:30%;
+    height:100%;
+}
+
+#elem1 #image{
+    width:100%;
+    height:60%;
+    overflow: hidden;
+}
+
+#elem3 #image{
+    width:100%;
+    height:60%;
+    overflow: hidden;
+}
+
+#image img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    transition: all ease 1.3s;
+}
+
+#image:hover img{
+    scale:1.2;
+}
+
+#elem1 h5{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Canopee;
+    
+
+}
+
+#elem3 h5{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Canopee;
+}
+
+
+#elem1 h5 span{
+   background-color: orangered;
+   font-weight: 100;
+   font-size: 15px;
+   color: aliceblue;
+   padding: 4px;
+   border-radius: 5px;
+   margin-left: 5px;
+}
+
+
+#elem3 h5 span{
+    background-color: orangered;
+    font-weight: 100;
+    font-size: 15px;
+    color: aliceblue;
+    padding: 4px;
+    border-radius: 5px;
+    margin-left: 5px;
+
+}
+
+#elem1 p{
+    font-family: domain;
+    font-size: 22px;
+    color: rgb(51, 51, 51);
+}
+
+#elem3 p{
+    font-family: domain;
+    font-size: 22px;
+    color: rgb(51, 51, 51);
+
+}
+
+#elem2 h2{
+    font-family: Canopee;
+    font-size: 75px;
+    font-weight: 100;
+}
+
+#elem2 h3{
+    font-family: domain;
+    font-size: 40px;
+    font-weight: 100;
+    margin-top: 10px;
+    color: rgb(51, 51, 51);
+}
+
+#page1 h1{
+    font-size: 480px;
+    font-family: Canopee;
+    font-weight: 100;
+    background-color: #1C1C19;
+    color:#C3BBB2;
+    line-height:400px;
+}
+
+
+#page2{
+    height:200vh;
+    width:100%;
+    background-color:#C3BBB2;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+#page2-left{
+  height:100%;
+  width: 35%;
+  padding-right: 50px;
+    background-color:#C3BBB2;
+  border-image: 1px solid black;
+  margin-left: 30px;
+  border-right: 1px solid black;
+  margin-bottom: 30px;;
+}
+
+#page2-left h2{
+    font-size: 100px;
+    font-family: canopee;
+    line-height: 100px;
+    font-weight: 100;
+    margin-left: 10px;
+    color: #1C1C19;
+
+}
+
+
+#page2-left h2 span{
+    font-size: 170px;
+    font-weight: 900;
+    line-height: 120px;
+    margin-left:15px;
+    color: #1C1C19;
+}
+
+
+#page2-left #image1{
+    width:100%;
+    height:60%;
+    overflow: hidden;
+    margin-left: 15px;
+   border: 2px solid black;
+}
+
+#image1 img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    transition: all ease 1.3s;
+}
+
+
+
+#page2-left #image1:hover img{
+    scale:1.2;
+  
+}
+
+#page2-left p{
+    font-size: 30px;
+    font-family: domain;
+    margin-left: 20px;
+}
+
+
+#page2-right{
+  height: 100%;
+  width:60%;
+  padding: 0px 20px;
+    background-color:#C3BBB2;
+}
+
+#page2-rightimage{
+    width: 100%;
+    height:39%;
+    background-color:#C3BBB2;
+    overflow: hidden;
+    border: 2px solid black;
+}
+
+
+
+#image2 img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    transition: all ease 1.3s;
+}
+
+
+
+#page2-right #image2:hover img{
+    scale:1.2;
+  
+}
+
+#page2-right h1{
+    font-family:canopee;
+    font-size:80px;
+    letter-spacing: -1px ;
+    font-weight: 100;
+    word-spacing: 5px;
+}
+
+#page3{
+    position: relative;
+    background-color:#C3BBB2;
+
+}
+
+#page3 h1{
+    font-size: 400px;
+    font-weight: 100;
+    font-family: canopee;
+    background-color: #1C1C19;
+    color:#C3BBB2;
+    width:75%;
+    letter-spacing: -10px;
+    line-height: 300px;
+}
+
+#page3 img{
+    height:330px;
+   position: absolute;
+   top:-15px;
+   right:70px;
+}
+
+#page4{
+       width:100vh;
+       height:100vw;
+
+}
+
+#page4page{
+ width:195%;
+ height:40%;
+ background-color:C3BBB2;
+ margin-left: 20px;
+ margin-top: 20px;
+ display:flex;
+ justify-content: space-between;
+ margin-top: 12%;
+}
+
+#page4-left{
+    width:480px;
+    height:550px;
+    background-color:#C3BBB2;
+    margin-right: 70px;
+    border: 1.5px solid black;;
+    
+}
+
+
+
+#page4-left #image4left{
+    height:50%;
+    width:100%;
+    background-color:#C3BBB2;
+    display: flex;
+    object-fit:cover;
+    overflow: hidden;
+
+}
+
+
+#page4-left h1{
+    font-family: canopee;
+    word-spacing: 1px;
+    font-size:40px ;
+    font-weight: 100;
+    margin-top:20px;
+    padding: 2px;
+
+}
+
+#page4-left h3{
+    font-family: domain;
+    word-spacing: 1px;
+    margin-top: 20px;
+    font-weight: 100;
+    font-size: 30px;
+    color: rgb(51, 51, 51);
+    padding: 4px;
+
+}
+
+
+#page4-right{
+    width:480px;
+    height:550px;
+    background-color:#C3BBB2;
+    margin-left: 260px;
+    border: 1.5px solid black;;
+
+}
+
+
+
+#page4-right #image4right{
+    height:50%;
+    width:100%;
+    background-color:#C3BBB2;
+    display: flex;
+    object-fit:cover;
+    overflow: hidden;
+}
+
+
+#page4-right h1{
+    font-family: canopee;
+    word-spacing: 1px;
+    font-size:40px ;
+    font-weight: 100;
+    margin-top: 20px;
+    padding: 2px;
+
+}
+
+#page4-right h3{
+    font-family: domain;
+    word-spacing: 1px;
+    margin-top: 20px;
+    font-weight: 100;
+    font-size: 30px;
+    color: rgb(51, 51, 51);
+    padding: 4px;
+
+}
+
+/* Page 5 styling */
+#page5 {
+    width: 100vh;
+    height: 100vw;
+}
+
+#page5page {
+    width: 195%;
+    height: 40%;
+    background-color: #C3BBB2;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12%;
+}
+
+#page5-left {
+    width: 480px;
+    height: 550px;
+    background-color: #C3BBB2;
+    margin-right: 70px;
+    border: 1.5px solid black;
+}
+
+#page5-left #image5left {
+    height: 50%;
+    width: 100%;
+    background-color: #C3BBB2;
+    display: flex;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+#page5-left h1 {
+    font-family: canopee;
+    word-spacing: 1px;
+    font-size: 40px;
+    font-weight: 100;
+    margin-top: 20px;
+    padding: 2px;
+}
+
+#page5-left h3 {
+    font-family: domain;
+    word-spacing: 1px;
+    margin-top: 20px;
+    font-weight: 100;
+    font-size: 30px;
+    color: rgb(51, 51, 51);
+    padding: 4px;
+}
+
+#page5-right {
+    width: 480px;
+    height: 550px;
+    background-color: #C3BBB2;
+    margin-left: 260px;
+    border: 1.5px solid black;
+}
+
+#page5-right #image5right {
+    height: 50%;
+    width: 100%;
+    background-color: #C3BBB2;
+    display: flex;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+#page5-right h1 {
+    font-family: canopee;
+    word-spacing: 1px;
+    font-size: 40px;
+    font-weight: 100;
+    margin-top: 20px;
+    padding: 2px;
+}
+
+#page5-right h3 {
+    font-family: domain;
+    word-spacing: 1px;
+    margin-top: 20px;
+    font-weight: 100;
+    font-size: 30px;
+    color: rgb(51, 51, 51);
+    padding: 4px;
+}
+
+/* Add hover effect for images in page 4 */
+#page4-left #image4left img,
+#page4-right #image4right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 1.3s ease; /* Smooth transition */
+}
+
+#page4-left #image4left:hover img,
+#page4-right #image4right:hover img {
+    transform: scale(1.2); /* Enlarge the image on hover */
+}
+
+/* Add hover effect for images in page 5 */
+#page5-left #image5left img,
+#page5-right #image5right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 1.3s ease; /* Smooth transition */
+}
+
+#page5-left #image5left:hover img,
+#page5-right #image5right:hover img {
+    transform: scale(1.2); /* Enlarge the image on hover */
+}
+
